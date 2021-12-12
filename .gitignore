@@ -6,6 +6,7 @@
 .pnp.js
 /.vscode
 cryptopunk.drawio
+/src/images/punks
 
 # testing
 /coverage

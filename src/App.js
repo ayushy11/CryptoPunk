@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import styled from "styled-components";
 import Header from "./components/Header";
-import CollectionCard from "./components/CollectionCard";
 import axios from "axios";
 
-import party from "../src/images/punks/6.jpg";
 import CollectionList from "./components/CollectionList";
 
 const AppContainer = styled.div`
