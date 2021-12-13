@@ -58,7 +58,12 @@ export const HeaderItemsContainer = styled.div`
   color: #a1a5b0;
 
   p {
+    font-weight: 600;
     margin: 10px;
+    &:hover {
+      transform: scale(1.1);
+      animation: textColor 1s ease infinite;
+    }
   }
 `;
 
@@ -78,6 +83,9 @@ export const HeaderSwitchContainer = styled.div`
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  &:hover {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+  }
 `;
 
 export const SwtichIcon = styled.img`

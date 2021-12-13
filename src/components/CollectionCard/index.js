@@ -11,10 +11,10 @@ import {
 } from "./CardElements";
 import weth from "../../images/weth.png";
 
-const CollectionCard = ({ id, name, traits, image }) => {
+const CollectionCard = ({ id, name, traits, image, onClick }) => {
   return (
     <>
-      <CardContainer>
+      <CardContainer onClick={onClick}>
         <CardImage src={image} alt="img" />
         <CardDetails>
           <CardName>
