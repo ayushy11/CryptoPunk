@@ -16,6 +16,7 @@ import {
   OwnerName,
   OwnerLink,
   IconLink,
+  DetailsContainer,
 } from "./MainElements";
 import instagramLogo from "../../images/owner/instagram.png";
 import twitterLogo from "../../images/owner/twitter.png";
@@ -33,11 +34,15 @@ const Main = ({ selectedPunk, punkListData }) => {
     <>
       <Container>
         <MainContainer>
+
           <PunkHighlight>
             <PunkContainer>
               <PunkImage src={activePunk.image_original_url} alt="punk" />
             </PunkContainer>
           </PunkHighlight>
+          
+          <DetailsContainer>
+
           <PunkDetails>
             <PunkTitle>{activePunk.name}</PunkTitle>
             <PunkId>#{activePunk.token_id}</PunkId>
@@ -47,10 +52,9 @@ const Main = ({ selectedPunk, punkListData }) => {
             <OwnerImageContainer>
               <OwnerImage src={activePunk.owner.profile_img_url} alt="" />
             </OwnerImageContainer>
-
             <OwnerDetails>
               <OwnerName>
-                <div>{activePunk.owner.address} </div>
+                <div>{activePunk.owner.address}</div>
                 <OwnerHandle>@cryptopunk</OwnerHandle>
               </OwnerName>
               <OwnerLink>
@@ -64,6 +68,8 @@ const Main = ({ selectedPunk, punkListData }) => {
               </OwnerLink>
             </OwnerDetails>
           </OwnerDetailsContainer>
+          </DetailsContainer>
+
         </MainContainer>
       </Container>
     </>

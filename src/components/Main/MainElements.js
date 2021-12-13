@@ -1,13 +1,22 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  max-height: 50vh;
+  /* max-height: 50vh; */
 `;
 
 export const MainContainer = styled.div`
   display: flex;
   padding-bottom: 20px;
   border-bottom: 1px solid #fff;
+`;
+
+export const DetailsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-bottom: 20px; */
+  /* border-bottom: 1px solid #fff; */
 `;
 
 export const PunkHighlight = styled.div`
@@ -46,7 +55,7 @@ export const PunkTitle = styled.h1`
 export const PunkId = styled.span`
   color: #a1a5b0;
   font-size: 72px;
-  align-self: center;
+  /* align-self: center; */
 `;
 
 export const OwnerDetailsContainer = styled.div`

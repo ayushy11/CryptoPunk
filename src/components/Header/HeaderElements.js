@@ -104,7 +104,7 @@ export const LoginButton = styled.button`
 
   &:hover {
     transform: scale(1.02);
-    animation: textColor 2s ease infinite;
+    animation: textColor 1s ease infinite;
     background: linear-gradient(to right, #ff416c, #ff4b2b);
   }
 `;
