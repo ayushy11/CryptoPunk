@@ -3,7 +3,6 @@ import CollectionCard from "../CollectionCard";
 import { ListContainer } from "./ListElements";
 
 const CollectionList = ({ punkListData, setSelectedPunk }) => {
-  console.log('!!!!!',punkListData);
   return (
     <>
       <ListContainer>

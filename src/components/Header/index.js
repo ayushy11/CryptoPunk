@@ -26,8 +26,7 @@ const Header = () => {
         <LogoContainer>
           <Logo src={punkLogo} alt="logo" />
         </LogoContainer>
-        {/* <HeaderTitle>hEader</HeaderTitle> */}
-
+       
         <SearchContainer>
           <SearchIconContainer>
             <SearchIcon src={searchIcon} alt="icon" />
